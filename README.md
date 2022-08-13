@@ -6,7 +6,7 @@ The puzzle game Flood is one of Simon Tatham's collection of GUI games. It is pl
 
 Each time the player clicks on a square with a color different from that of the active region, all the cells currently in the active region take on that color. So if there are cells of this color adjacent to the active region, they get added to the active region.
 
-The player's goal is to make all cells the same color by clicking a series of cells. The program sets an **upper limit** on the number of moves, depending on its own determination of how many moves are needed.
+##The player's goal is to make all cells the same color by clicking a series of cells.## The program sets an **upper limit** on the number of moves, depending on its own determination of how many moves are needed.
 
 As an example, consider starting from the board labeled 0/7 below. The subsequent numbered boards that follow result from clicking on cells whose colors are, respectively, green, yellow, red, green, yellow, blue, and red. This results in an all-red board in 7 moves.
 
